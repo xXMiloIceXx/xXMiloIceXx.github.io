@@ -1,0 +1,113 @@
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+    font-size: 3rem;
+}
+
+.welcome {
+    font-size: 1.5rem;
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    body {
+        background-image: url("../img/mobile.jpeg");
+    }
+}
+
+/* For desktop devices */
+@media (min-width: 768px) {
+    body {
+        background-image: url("https://pic.re/image");
+    }
+}
+
+.card {
+    background: none !important;
+    border: none !important;
+    padding-top: 5%;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo {
+    border-radius: 6rem;
+}
+
+.blur {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.25;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+hr.custom-hr {
+    height: 5px;
+    /* Change to your desired thickness in pixels or other units */
+    background-color: #ffffff;
+    /* Change to match the color for browsers that don't support height */
+    border: none;
+}
+
+.btn.btn-nice {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    margin: 2%;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    width: 70%;
+}
+
+.btn.btn-nice:hover {
+    background-color: #472fff;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+
+.clock {
+    float: right;
+    position: inherit;
+}
+
+footer {
+    padding: 4px 10px 4px 10px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #858585;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 12;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -o-transition: .2s linear;
+    transition: .2s linear;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.glow {
+    color: #fff;
+    font-weight: bold;
+
+}
