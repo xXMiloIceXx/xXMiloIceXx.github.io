@@ -7,7 +7,7 @@ function displayTime() {
     let hoursOfDay = timeNow.getHours();
     let minutes = timeNow.getMinutes();
     let seconds = timeNow.getSeconds();
-    let weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    let weekDay = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur", "Sun"]
     let day = timeNow.getDate();
     let today = weekDay[timeNow.getDay()];
     let months = timeNow.toLocaleString("default", {
@@ -32,7 +32,7 @@ function displayTime() {
 
     let time = hoursOfDay + ":" + minutes + ":" + seconds + period;
 
-    document.getElementById('Clock').innerHTML = time + " <br>" + today + " <br>" + day + " " + months + " " + year;
+    document.getElementById('Clock').innerHTML = time + " " + today + " <br>" + day + " " + months + " " + year;
 
 }
 displayTime();
