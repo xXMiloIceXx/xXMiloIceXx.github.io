@@ -32,7 +32,7 @@ function displayTime() {
 
     let time = hoursOfDay + ":" + minutes + ":" + seconds + period;
 
-    document.getElementById('Clock').innerHTML = time + " " + today + " <br>" + day + " " + months + " " + year;
+    document.getElementById('Clock').innerHTML = time + " <br>" + today + " <br>" + day + " " + months + " " + year;
 
 }
 displayTime();

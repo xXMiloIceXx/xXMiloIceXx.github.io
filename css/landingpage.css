@@ -100,6 +100,8 @@ footer {
     -moz-transition: .2s linear;
     -o-transition: .2s linear;
     transition: .2s linear;
+    font-size: 0.77rem;
+    opacity: 0.95;
 }
 
 .text-right {
