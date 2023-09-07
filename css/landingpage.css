@@ -4,11 +4,6 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    height: 100%;
 }
 
 .name {
@@ -27,6 +22,13 @@ body {
 }
 
 /* For desktop devices */
+@media (max-width: 1024px) {
+    .btn.btn-nice {
+        width: 70% !important;
+    }
+}
+
+
 @media (min-width: 768px) {
     body {
         background-image: url("https://pic.re/image");
@@ -71,7 +73,7 @@ body {
 }
 
 .logo {
-    border-radius: 6rem;
+    border-radius: 12rem;
 }
 
 .blur {
@@ -101,7 +103,7 @@ hr.custom-hr {
     margin: 2%;
     opacity: 0.8;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
-    width: 70%;
+    width: 29%;
 }
 
 .btn.btn-nice:hover {
